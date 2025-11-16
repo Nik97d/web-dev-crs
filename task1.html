@@ -3,104 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro</title>
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<div>
-    <A href="index.html">Index</A>
-    <A href="task1.html">About Me</A>
-    <A href="task2.html">Tech Trends</A>
-</div>
-<h2>Navigation</h2>
-<div>
-<a href="#am101">About me</a>
-<a href="#ed102">Education</a>
-<a href="#sl103">Skills</a>
-<a href="#pf104">Proficiency</a>
-<a href="#fd106">Feedback</a>
-</div>
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hello, I am a cybersecurity engineer. I work at a large car factory in the information security department.</p>
+        </section>
 
-<h1 id="am101">About me</h1>
-<img width="400" src="img/ai-gen-cbs.jpg">
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Specialization</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Law</td>
+                        <td>Moscow State Law University</td>
+                        <td>2017-2021</td>
+                        <td>Jurisprudence</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">-</td>
+                        <td>Skillfactory</td>
+                        <td>2021-2022</td>
+                        <td>Cybersecurity</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">-</td>
+                        <td>АНО ДПО "ЦМИ"</td>
+                        <td>2025</td>
+                        <td>Web Development</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-<p>Hello, My name is Nik. I am a cybersecurity engineer. I work at a large car factory in the information security department.</p>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Windows, Linux</li>
+                        <li>Python</li>
+                        <li>Networking (TCP/IP)</li>
+                        <li>Penetration testing</li>
+                        <li>HTML, CSS, JS</li>
+                        <li>Databases (SQL & NoSQL)</li>
+                        <li>Foreign Languages
+                        <ul>
+                          <li>English</li>
+                          <li>Japanese</li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section">
+                    <h3>Proficiency</h3>
+                    <ol>
+                        <li>System Administrator</li>
+                        <li>Intermediate</li>
+                        <li>Advanced</li>
+                        <li>Expert</li>
+                        <li>Junior</li>
+                        <li>Intermediate</li>
+                        <li>-
+                        <ul>
+                          <li>Advanced (C2)</li>
+                          <li>Intermediate (N3)</li>
+                        </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
 
-<div>
-<h3 id="ed102">EDUCATION</h3>
-<table>
-<tr>
-    <td>Year</td>
-    <td>Institution</td>
-    <td>Specialization</td>
-</tr>
-<tr>
-    <td>2016-2020</td>
-    <td>Moscow State Law University</td>
-    <td>Jurisprudence</td>
-</tr>
-<tr>
-    <td>2021-2022</td>
-    <td>Skillfactory</td>
-    <td>Cybersecurity</td>
-</tr>
-<tr>
-    <td>2025</td>
-    <td>АНО ДПО "ЦМИ"</td>
-    <td>Web development</td>
-</tr>
-</table>
-</div>
+        <!-- Links Section -->
+        <section id="links">
+            <h2>My Work & Profiles</h2>
+            <div class="links-block">
+                <a href="https://github.com/Nik97d" target="_blank">GitHub</a>
+            </div>
+        </section>
 
-<h3 id="sl103">SKILLS</h3>
+        <!-- Feedback Section -->
+        <section id="feedback">
+            <h2>Send Me Feedback</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-<ul>
-    <li>windows, linux</li>
-    <li>python</li>
-    <li>networking</li>
-    <li>system administration</li>
-    <li>penetration testing</li>
-    <li>SQL, noSQL</li>
-    <li>HTML, CSS, JS</li>
-    <li>English, Russian, Japanese</li>
-</ul>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-<h4 id="pf104">Proficiency</h4>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="feedback">Website Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
-<ol>
-    <li>windows (AD, power shell) - advanced</li>
-    <li>linux (bash) - advanced</li>
-    <li>python (for scripting) - intermediate</li>
-    <li>networking (TCP/IP) - advanced</li>
-    <li>penetration testing - advanced</li>
-    <li>SQL, noSQL - intermediate</li>
-    <li>HTML, CSS, JS - </li>
-    <li>English - advanced (C2)</li>
-    <li>Russian - native</li>
-    <li>Japanese - intermediate (N3)</li>
-</ol>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
 
-<h4 id="gt105">My github page</h4>
-<a href="https://github.com/Nik97d">Github</a>
+                <div class="form-group">
+                    <input type="checkbox" id="chb" name="subs" value="yes"><span>I agree to recive notifications via email</span>
+                </div>
+            </form>
+        </section>
+    </div>
 
-<div>
-<h3 id="fd106">Feedback</h3>
-<form action="#" method="POST">
-  <label for="u_name">Your name</label><br>
-<input type="text" name="name" id="u_name" placeholder="type your name" requierd><br>
-  <label for="u_mail">Your email</label><br>
-<input type="email" name="email" id="u_mail" placeholder="example@mail.com"><br>
-<input type="radio" name="gender" value="male"><span>Male</span><br>
-<input type="radio" name="gender" value="female"><span>Female</span><br>
-  <label for="subs">Privacy policy</label><br>
-<input type="checkbox" name="subscribe" value="yes"><span>I agree to receiving notification emails</span><br>
-<input type="submit" value="submit"><br><br>
-<textarea type name="message" rows="3" cols="30" placeholder="Leave your comment here..."></textarea>
-</form>
-</div>
-
+    <!-- Footer with Contact Information -->
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📧</span>
+                <span>info@aboutme.ex</span>
+            </div>
+            <div class="contact-item">
+                <span>📱</span>
+                <span>+7 (999) 777-5555</span>
+            </div>
+        </div>
+        <p style="margin-top: 1rem;">&copy; 2025 About Me. For Web Development course, exercise 1.</p>
+    </footer>
 </body>
 </html>
-
-
-
