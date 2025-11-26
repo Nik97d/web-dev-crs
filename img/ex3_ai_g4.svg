@@ -1,0 +1,44 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#434343"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="#f8f9fa"/>
+  
+  <!-- Road -->
+  <rect x="0" y="250" width="500" height="100" fill="#666"/>
+  <line x1="0" y1="300" x2="500" y2="300" stroke="white" stroke-width="4" stroke-dasharray="20,20"/>
+  
+  <!-- Car Body -->
+  <rect x="150" y="200" width="200" height="60" rx="10" fill="#2196f3"/>
+  <rect x="120" y="220" width="260" height="40" rx="5" fill="#1976d2"/>
+  
+  <!-- Windows -->
+  <rect x="160" y="205" width="80" height="25" rx="3" fill="#bbdefb"/>
+  <rect x="260" y="205" width="80" height="25" rx="3" fill="#bbdefb"/>
+  
+  <!-- Wheels -->
+  <circle cx="170" cy="280" r="20" fill="#333"/>
+  <circle cx="170" cy="280" r="12" fill="#666"/>
+  <circle cx="330" cy="280" r="20" fill="#333"/>
+  <circle cx="330" cy="280" r="12" fill="#666"/>
+  
+  <!-- Sensors -->
+  <circle cx="250" cy="190" r="8" fill="#ff5722"/>
+  <circle cx="220" cy="190" r="8" fill="#ff5722"/>
+  <circle cx="280" cy="190" r="8" fill="#ff5722"/>
+  
+  <!-- AI Radar Waves -->
+  <circle cx="250" cy="190" r="30" fill="none" stroke="#ff5722" stroke-width="2" stroke-dasharray="5,5"/>
+  <circle cx="250" cy="190" r="50" fill="none" stroke="#ff5722" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Title -->
+  <text x="250" y="60" text-anchor="middle" font-family="Arial" font-size="24" fill="#2c3e50" font-weight="bold">Autonomous Vehicles</text>
+  <text x="250" y="90" text-anchor="middle" font-family="Arial" font-size="16" fill="#666">AI-Powered Navigation</text>
+  
+  <!-- Traffic Elements -->
+  <rect x="400" y="220" width="20" height="60" fill="#ffeb3b"/>
+  <rect x="80" y="220" width="20" height="60" fill="#4caf50"/>
+</svg>
