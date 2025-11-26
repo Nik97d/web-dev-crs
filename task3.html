@@ -3,313 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Technology Advances Gallery</title>
-    <link rel="stylesheet" href="css/style3.css">
+    <title>AI Tech</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <!-- Fixed Header -->
-    <header id="top" class="fixed-header">
-        <nav class="nav-container">
+    <header id="header">
+        <div class="container">
             <div class="logo">
-                <h1>AI Tech Gallery</h1>
+                <i class="fas fa-robot"></i>
+                <h1>AI Technology Advances</h1>
             </div>
-            <ul class="nav-links">
-                <li><a href="#research">Research</a></li>
-                <li><a href="#applications">Applications</a></li>
-                <li><a href="#innovation">Innovation</a></li>
-                <li><a href="#impact">Impact</a></li>
-                <li><a href="#future">Future</a></li>
-            </ul>
-        </nav>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#header"><i class="fas fa-home"></i> Top</a></li>
+                    <li><a href="#content-nav"><i class="fas fa-bars"></i> Navigation</a></li>
+                    <li><a href="#footer"><i class="fas fa-info-circle"></i> Information</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Sticky Back to Top Button -->
-    <a href="#top" class="back-to-top">
-        Back to Top
-    </a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Exploring the Future of Artificial Intelligence</h2>
+            <p>Discover the groundbreaking advances in AI technology that are reshaping industries, transforming human capabilities, and pushing the boundaries of what's possible.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-brain"></i>
+                    <span class="stat-number">87%</span>
+                    <span class="stat-label">AI Adoption Growth</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="stat-number">$15.7T</span>
+                    <span class="stat-label">Projected Economic Impact</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-industry"></i>
+                    <span class="stat-number">47%</span>
+                    <span class="stat-label">Businesses Implementing AI</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Recent Advances in Artificial Intelligence</h2>
-                <p>Exploring the cutting-edge developments shaping our future</p>
-                <div class="quick-nav">
-                    <a href="#multimodal-ai" class="nav-btn">Explore Multimodal AI</a>
-                    <a href="#generative-ai" class="nav-btn">Discover Generative AI</a>
-                    <a href="#robotics" class="nav-btn">Learn About Robotics</a>
+    <!-- Content Navigation -->
+    <nav id="content-nav" class="content-nav">
+        <div class="container">
+            <h2><i class="fas fa-map-signs"></i> Explore AI Advances</h2>
+            <ul>
+                <li><a href="#gpt-4"><i class="fas fa-comment-dots"></i> GPT-4 & Language Models</a></li>
+                <li><a href="#dalle"><i class="fas fa-palette"></i> DALL-E & Image Generation</a></li>
+                <li><a href="#alphafold"><i class="fas fa-dna"></i> AlphaFold & Protein Folding</a></li>
+                <li><a href="#self-driving"><i class="fas fa-car"></i> Self-Driving Cars</a></li>
+                <li><a href="#healthcare"><i class="fas fa-heartbeat"></i> AI in Healthcare</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <div class="container">
+            <h2>The AI Revolution is Here</h2>
+            <p>Artificial Intelligence has evolved from a theoretical concept to a transformative force across every sector of society. These advances are not just technological marvels but tools that augment human capabilities and solve complex global challenges.</p>
+
+            <div class="ai-timeline">
+                <div class="timeline-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Research</h3>
+                    <p>Breakthrough discoveries in neural networks and machine learning algorithms</p>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Development</h3>
+                    <p>Creating practical AI applications for real-world problems</p>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Implementation</h3>
+                    <p>Deploying AI solutions across industries and society</p>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Impact</h3>
+                    <p>Transforming how we work, live, and interact with technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Blocks -->
+    <div class="content-grid container">
+        <!-- Block 1 -->
+        <section id="gpt-4" class="content-block">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="AI Language Model Visualization">
+            </div>
+            <div class="content-text">
+                <h2><i class="fas fa-comment-dots"></i> GPT-4 & Large Language Models</h2>
+                <p>GPT-4 represents a significant leap in natural language processing, capable of understanding and generating human-like text across a wide range of topics. With improved reasoning capabilities and the ability to process both text and images, these models are transforming how we interact with technology.</p>
+                <p>Recent advances include better contextual understanding, reduced bias, and the ability to follow complex instructions with greater accuracy. These models are now being deployed in customer service, content creation, education, and research assistance.</p>
+                <div class="interactive-elements">
+                    <a href="#dalle" class="btn"><i class="fas fa-arrow-right"></i> Next: Image Generation</a>
+                    <a href="#content-nav" class="btn"><i class="fas fa-arrow-up"></i> Back to Navigation</a>
                 </div>
             </div>
         </section>
 
-        <!-- Research Category -->
-        <section id="research" class="category-section">
-            <div class="category-header">
-                <h2>AI Research & Development</h2>
-                <p>Breakthrough technologies pushing the boundaries of artificial intelligence</p>
+        <!-- Block 2 -->
+        <section id="dalle" class="content-block">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1677442135331-1c998577934e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="AI Generated Art">
             </div>
-
-            <!-- Block 1: Multimodal AI -->
-            <section id="multimodal-ai" class="content-block">
-                <div class="block-header">
-                    <h2>Multimodal AI Systems</h2>
-                    <span class="date-tag">2024</span>
-                </div>
-                <div class="block-content">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop" alt="Multimodal AI visualization">
-                    </div>
-                    <div class="text-content">
-                        <p>Modern AI systems can now process and understand multiple types of data simultaneously - text, images, audio, and video. This breakthrough enables more natural human-computer interactions.</p>
-                        <div class="tech-features">
-                            <div class="feature-card">
-                                <h4>Cross-Modal Understanding</h4>
-                                <p>Connecting different data types for comprehensive analysis</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>Real-time Processing</h4>
-                                <p>Instant analysis across multiple input streams</p>
-                            </div>
-                            <div class="feature-card">
-                                <h4>Contextual Awareness</h4>
-                                <p>Understanding relationships between different data modalities</p>
-                            </div>
-                        </div>
-                        <a href="#research" class="learn-more">View Technical Specifications</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Block 2: Generative AI -->
-            <section id="generative-ai" class="content-block">
-                <div class="block-header">
-                    <h2>Generative AI Revolution</h2>
-                    <span class="date-tag">2023-2024</span>
-                </div>
-                <div class="block-content reverse">
-                    <div class="text-content">
-                        <p>Generative models like GPT-4 and DALL-E 3 have transformed creative industries, enabling unprecedented content generation capabilities while raising important questions about authenticity.</p>
-                        <div class="applications-grid">
-                            <div class="app-item">
-                                <strong>Content Creation</strong>
-                                <span>Automated writing, design, and media production</span>
-                            </div>
-                            <div class="app-item">
-                                <strong>Code Generation</strong>
-                                <span>AI-assisted programming and software development</span>
-                            </div>
-                            <div class="app-item">
-                                <strong>Media Synthesis</strong>
-                                <span>Image, video, and audio generation capabilities</span>
-                            </div>
-                        </div>
-                        <a href="#applications" class="learn-more">Explore Implementation Guides</a>
-                    </div>
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1677442135330-0f56bd7c23b5?w=500&h=300&fit=crop" alt="Generative AI art">
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Applications Category -->
-        <section id="applications" class="category-section">
-            <div class="category-header">
-                <h2>AI Applications & Implementation</h2>
-                <p>Practical applications of AI technology across various industries</p>
-            </div>
-
-            <!-- Block 3: AI in Robotics -->
-            <section id="robotics" class="content-block">
-                <div class="block-header">
-                    <h2>Autonomous Robotics</h2>
-                    <span class="date-tag">2024</span>
-                </div>
-                <div class="block-content">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop" alt="AI Robotics">
-                    </div>
-                    <div class="text-content">
-                        <p>Advanced robotics combined with AI are creating machines that can learn complex tasks through demonstration and adapt to dynamic environments in real-time.</p>
-                        <div class="progress-bars">
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Learning Efficiency</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="progress-bar">
-                                    <div class="progress-fill" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Task Accuracy</span>
-                                    <span>92%</span>
-                                </div>
-                                <div class="progress-bar">
-                                    <div class="progress-fill" style="width: 92%"></div>
-                                </div>
-                            </div>
-                            <div class="progress-item">
-                                <div class="progress-label">
-                                    <span>Environmental Adaptation</span>
-                                    <span>78%</span>
-                                </div>
-                                <div class="progress-bar">
-                                    <div class="progress-fill" style="width: 78%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#innovation" class="learn-more">View Industry Applications</a>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Innovation Category -->
-        <section id="innovation" class="category-section">
-            <div class="category-header">
-                <h2>AI Innovation & Breakthroughs</h2>
-                <p>Groundbreaking developments in artificial intelligence technology</p>
-            </div>
-
-            <!-- Block 4: Healthcare AI -->
-            <section id="healthcare" class="content-block">
-                <div class="block-header">
-                    <h2>Medical AI Breakthroughs</h2>
-                    <span class="date-tag">2024</span>
-                </div>
-                <div class="block-content reverse">
-                    <div class="text-content">
-                        <p>AI systems are revolutionizing healthcare with improved diagnostic accuracy, drug discovery acceleration, and personalized treatment plans.</p>
-                        <div class="impact-stats">
-                            <div class="impact-item">
-                                <div class="impact-number">45%</div>
-                                <div class="impact-text">Faster Diagnosis</div>
-                            </div>
-                            <div class="impact-item">
-                                <div class="impact-number">3.2x</div>
-                                <div class="impact-text">Drug Discovery Speed</div>
-                            </div>
-                            <div class="impact-item">
-                                <div class="impact-number">91%</div>
-                                <div class="impact-text">Diagnostic Accuracy</div>
-                            </div>
-                        </div>
-                        <a href="#impact" class="learn-more">Read Medical Case Studies</a>
-                    </div>
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop" alt="Medical AI">
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Impact Category -->
-        <section id="impact" class="category-section">
-            <div class="category-header">
-                <h2>AI Impact & Society</h2>
-                <p>Understanding the broader implications of AI technology</p>
-            </div>
-
-            <!-- Block 5: AI Ethics -->
-            <section id="ethics" class="content-block">
-                <div class="block-header">
-                    <h2>Ethical AI Development</h2>
-                    <span class="date-tag">Ongoing</span>
-                </div>
-                <div class="block-content">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="AI Ethics">
-                    </div>
-                    <div class="text-content">
-                        <p>As AI capabilities grow, so does the importance of developing ethical frameworks, ensuring transparency, and addressing bias in machine learning systems.</p>
-                        <div class="principles-grid">
-                            <div class="principle-card">
-                                <h4>Algorithmic Fairness</h4>
-                                <p>Eliminating bias in algorithms and training datasets</p>
-                            </div>
-                            <div class="principle-card">
-                                <h4>System Transparency</h4>
-                                <p>Explainable AI and comprehensive documentation</p>
-                            </div>
-                            <div class="principle-card">
-                                <h4>Decision Accountability</h4>
-                                <p>Clear responsibility for AI system outcomes</p>
-                            </div>
-                            <div class="principle-card">
-                                <h4>Data Privacy</h4>
-                                <p>Protecting user information and privacy rights</p>
-                            </div>
-                        </div>
-                        <a href="#future" class="learn-more">Review Ethical Guidelines</a>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Future Category -->
-        <section id="future" class="category-section">
-            <div class="category-header">
-                <h2>Future of AI</h2>
-                <p>Emerging trends and future directions in artificial intelligence</p>
-            </div>
-            <div class="future-content">
-                <div class="future-grid">
-                    <div class="future-card">
-                        <h3>Quantum AI</h3>
-                        <p>Combining quantum computing with machine learning for unprecedented processing power</p>
-                        <a href="#research" class="future-btn">Explore Quantum AI</a>
-                    </div>
-                    <div class="future-card">
-                        <h3>Neuromorphic Computing</h3>
-                        <p>Brain-inspired computing architectures for more efficient AI systems</p>
-                        <a href="#research" class="future-btn">Learn About Neuromorphics</a>
-                    </div>
-                    <div class="future-card">
-                        <h3>AI Safety Research</h3>
-                        <p>Ensuring advanced AI systems remain aligned with human values</p>
-                        <a href="#impact" class="future-btn">Study AI Safety</a>
-                    </div>
+            <div class="content-text">
+                <h2><i class="fas fa-palette"></i> DALL-E & Image Generation</h2>
+                <p>AI image generation models like DALL-E, Midjourney, and Stable Diffusion have revolutionized digital art and content creation. These systems can create highly detailed, realistic images from simple text descriptions, opening up new possibilities for artists, designers, and marketers.</p>
+                <p>Recent improvements include better understanding of complex prompts, higher resolution outputs, and more coherent compositions that respect physics and common sense. These tools are being used in advertising, entertainment, education, and even scientific visualization.</p>
+                <div class="interactive-elements">
+                    <a href="#alphafold" class="btn"><i class="fas fa-arrow-right"></i> Next: Protein Folding</a>
+                    <a href="#content-nav" class="btn"><i class="fas fa-arrow-up"></i> Back to Navigation</a>
                 </div>
             </div>
         </section>
-    </main>
+
+        <!-- Block 3 -->
+        <section id="alphafold" class="content-block">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Protein Structure Visualization">
+            </div>
+            <div class="content-text">
+                <h2><i class="fas fa-dna"></i> AlphaFold & Protein Folding</h2>
+                <p>DeepMind's AlphaFold has solved one of biology's greatest challenges - predicting protein structures from amino acid sequences. This breakthrough has enormous implications for drug discovery, disease understanding, and biological research.</p>
+                <p>The AI system can predict protein structures with accuracy comparable to experimental methods, dramatically accelerating research in medicine and biotechnology. This advancement is already helping scientists understand diseases better and develop new treatments faster than ever before.</p>
+                <div class="interactive-elements">
+                    <a href="#self-driving" class="btn"><i class="fas fa-arrow-right"></i> Next: Self-Driving Cars</a>
+                    <a href="#content-nav" class="btn"><i class="fas fa-arrow-up"></i> Back to Navigation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block 4 -->
+        <section id="self-driving" class="content-block">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Autonomous Vehicle">
+            </div>
+            <div class="content-text">
+                <h2><i class="fas fa-car"></i> Self-Driving Cars</h2>
+                <p>Autonomous vehicle technology continues to advance, with AI systems becoming increasingly capable of navigating complex urban environments. These systems combine computer vision, sensor fusion, and deep learning to perceive and react to their surroundings.</p>
+                <p>Recent developments include improved object detection, better prediction of pedestrian behavior, and enhanced decision-making in challenging driving scenarios. While fully autonomous vehicles are still in development, advanced driver assistance systems are already making roads safer.</p>
+                <div class="interactive-elements">
+                    <a href="#healthcare" class="btn"><i class="fas fa-arrow-right"></i> Next: Healthcare AI</a>
+                    <a href="#content-nav" class="btn"><i class="fas fa-arrow-up"></i> Back to Navigation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Block 5 -->
+        <section id="healthcare" class="content-block">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Medical AI Technology">
+            </div>
+            <div class="content-text">
+                <h2><i class="fas fa-heartbeat"></i> AI in Healthcare</h2>
+                <p>Artificial intelligence is transforming healthcare through improved diagnostics, personalized treatment plans, and drug discovery. AI systems can analyze medical images, predict disease progression, and assist in surgical procedures with remarkable precision.</p>
+                <p>Recent advances include AI models that can detect diseases from medical scans with accuracy surpassing human experts, and systems that can predict patient outcomes to guide treatment decisions. These technologies are making healthcare more accessible, accurate, and personalized.</p>
+                <div class="interactive-elements">
+                    <a href="#gpt-4" class="btn-secondary"><i class="fas fa-redo"></i> Back to Start</a>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>AI Tech Gallery</h3>
-                <p>Exploring the frontier of artificial intelligence research and development.</p>
-                <div class="newsletter">
-                    <input type="email" placeholder="Subscribe to updates" class="newsletter-input">
-                    <button class="newsletter-btn">Subscribe</button>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-robot"></i> About This Gallery</h3>
+                    <p>This gallery showcases recent advances in artificial intelligence technology that are shaping our future. From language models to healthcare applications, AI is revolutionizing how we solve complex problems.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-envelope"></i> Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> Email: info@aitechgallery.com</p>
+                    <p><i class="fas fa-phone"></i> Phone: (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 AI Street, Tech City</p>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-link"></i> Quick Links</h3>
+                    <ul>
+                        <li><a href="#header"><i class="fas fa-arrow-up"></i> Back to Top</a></li>
+                        <li><a href="#content-nav"><i class="fas fa-bars"></i> Content Navigation</a></li>
+                        <li><a href="#gpt-4"><i class="fas fa-comment-dots"></i> GPT-4</a></li>
+                        <li><a href="#healthcare"><i class="fas fa-heartbeat"></i> Healthcare AI</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-section">
-                <h4>Research Areas</h4>
-                <ul>
-                    <li><a href="#research" class="footer-link">Machine Learning</a></li>
-                    <li><a href="#research" class="footer-link">Neural Networks</a></li>
-                    <li><a href="#applications" class="footer-link">Computer Vision</a></li>
-                    <li><a href="#applications" class="footer-link">Natural Language Processing</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Tech Gallery. For Web Development course, exercise 3.</p>
             </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#multimodal-ai" class="footer-link">Multimodal AI</a></li>
-                    <li><a href="#generative-ai" class="footer-link">Generative AI</a></li>
-                    <li><a href="#robotics" class="footer-link">AI Robotics</a></li>
-                    <li><a href="#ethics" class="footer-link">AI Ethics</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 AI Techy Gallery. For Web Development course, exercise 3.</p>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#header" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 </body>
 </html>
