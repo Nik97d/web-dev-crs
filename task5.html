@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style5.css">
+    <title>Burger</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Menu</div>
+
+        <button class="burger" id="burgerBtn">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </button>
+
+        <nav class="menu" id="menu">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="card">
+            <h1>Dropdown Menu Showcase</h1>
+            <p>This burger menu opens vertically downwards when clicked.</p>
+            <p>Click the burger icon (☰) in the top right corner to see the menu dropdown effect. On desktop screens, the menu is always visible as a horizontal navigation bar.</p>
+
+            <div class="features">
+
+                </div>
+                <div class="feature">
+                    <h3>Modern Design</h3>
+                    <p>Clean interface for showcasing dropdown menu.</p>
+                </div>
+                <div class="feature">
+                    <h3>Responsive</h3>
+                    <p>Adapts to different screen sizes automatically.</p>
+                </div>
+          </div>
+    </main>
+
+    <script>
+        const burgerBtn = document.getElementById('burgerBtn');
+        const menu = document.getElementById('menu');
+
+        burgerBtn.addEventListener('click', () => {
+            burgerBtn.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 768) {
+                    burgerBtn.classList.remove('active');
+                    menu.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
