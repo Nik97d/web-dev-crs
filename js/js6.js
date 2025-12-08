@@ -1,4 +1,4 @@
-        const images = [ "ex6_1.jpg", "ex6_2.jpg", "ex6_3.jpg", "ex6_4.jpg"];
+        const images = [ "img/ex6_1.jpg", "img/ex6_2.jpg", "img/ex6_3.jpg", "img/ex6_4.jpg"];
 
         // Initialize variables
         let currentSlide = 0;
